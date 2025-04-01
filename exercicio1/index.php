@@ -9,14 +9,9 @@
 <body>
     <div class = "wrapper">
 
-        <?php
-
-            while ($rep < 5) {
-                echo "Bom dia, boa tarde e boa noite<br>";
-                $rep++;
-            }
-
-        ?>
+    for ($i = 0; $i < 5; $i++) {
+    echo "$i ° Bom dia, boa tarde  boa noite<br>";
+    }
 
     </div>
 </body>
